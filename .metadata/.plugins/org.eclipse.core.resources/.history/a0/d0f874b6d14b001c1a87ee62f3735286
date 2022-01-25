@@ -1,0 +1,10 @@
+INSERT INTO clientes(region_id,nombre,apellido,email,create_at) VALUES(1,'Johan','niño','johanmaury@gmail.com', NOW());
+INSERT INTO clientes(region_id,nombre,apellido,email,create_at) VALUES(2,'Lorena','galvis','jennifer@gmail.com', NOW());
+INSERT INTO clientes(region_id,nombre,apellido,email,create_at) VALUES(3,'Nestor','castañeda','Nestor@gmail.com', NOW());
+INSERT INTO clientes(region_id,nombre,apellido,email,create_at) VALUES(4,'Magaly','reyes', 'Magaly@gmail.com',NOW());
+
+
+INSERT INTO regiones(id, nombre) VALUES (1, 'Bogota');
+INSERT INTO regiones(id, nombre) VALUES (2, 'Cartagena');
+INSERT INTO regiones(id, nombre) VALUES (3, 'Bucaramanga');
+INSERT INTO regiones(id, nombre) VALUES (4, 'Cali');

@@ -1,0 +1,12 @@
+package edu.ucentral.servicio.facturas.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import edu.ucentral.servicio.facturas.model.Cliente;
+
+public interface ClienteRepository extends JpaRepository<Cliente, Long> {
+
+	
+	
+	
+}

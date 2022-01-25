@@ -1,0 +1,37 @@
+
+
+INSERT INTO regiones(id, nombre) VALUES (1, 'Bogota');
+INSERT INTO regiones(id, nombre) VALUES (2, 'Cartagena');
+INSERT INTO regiones(id, nombre) VALUES (3, 'Bucaramanga');
+INSERT INTO regiones(id, nombre) VALUES (4, 'Cali');
+
+INSERT INTO clientes(nombre, apellido, email, create_at, region_id) VALUES('Johan','niño','johanmaury@gmail.com', NOW(), 1);
+INSERT INTO clientes(nombre, apellido, email, create_at, region_id) VALUES('Lorena','galvis','jennifer@gmail.com', NOW(), 2);
+INSERT INTO clientes(nombre, apellido, email, create_at, region_id) VALUES('Nestor','castañeda','Nestor@gmail.com', NOW(), 3);
+INSERT INTO clientes(nombre,  apellido, email, create_at, region_id) VALUES('Magaly','reyes', 'Magaly2@gmail.com',NOW(), 4);
+
+INSERT productos(nombre,precio,create_at) VALUES('Bandas elasticas', 100000,NOW());
+INSERT productos(nombre,precio,create_at) VALUES('Guantes', 200000,NOW());
+INSERT productos(nombre,precio,create_at) VALUES('Raqueta', 300000,NOW());
+INSERT productos(nombre,precio,create_at) VALUES( 'Arco', 400000,NOW());
+INSERT productos(nombre,precio,create_at) VALUES( 'Patines', 500000,NOW());
+INSERT productos(nombre,precio,create_at) VALUES( 'Bate de beisbol', 600000,NOW());
+INSERT productos(nombre,precio,create_at) VALUES( 'Tabla de surf', 700000,NOW());
+INSERT productos(nombre,precio,create_at) VALUES( 'Pelota de golf', 800000,NOW());
+
+
+INSERT INTO facturas(descripcion,observacion,cliente_id,create_at) VALUES ('Factura equipos de deporte',null,1,NOW());
+INSERT INTO facturas_items(cantidad,factura_id,producto_id) VALUES(1,1,1);
+INSERT INTO facturas_items(cantidad,factura_id,producto_id) VALUES(2,1,4);
+INSERT INTO facturas_items(cantidad,factura_id,producto_id) VALUES(1,1,5);
+
+
+INSERT INTO facturas(descripcion,observacion,cliente_id,create_at) VALUES ('Factura equipos de deporte',null,1,NOW());
+INSERT INTO facturas_items(cantidad,factura_id,producto_id) VALUES(3,1,6);
+INSERT INTO facturas_items(cantidad,factura_id,producto_id) VALUES(2,1,4);
+
+
+INSERT INTO facturas(descripcion,observacion,cliente_id,create_at) VALUES ('Factura equipos de deporte',null,2,NOW());
+INSERT INTO facturas_items(cantidad,factura_id,producto_id) VALUES(3,1,6);
+INSERT INTO facturas_items(cantidad,factura_id,producto_id) VALUES(2,1,8);
+

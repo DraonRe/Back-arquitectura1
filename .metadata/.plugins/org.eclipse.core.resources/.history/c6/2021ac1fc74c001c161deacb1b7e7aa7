@@ -1,0 +1,5 @@
+package edu.ucentral.servicio.facturas.repository;
+
+public interface ProductoRepository {
+
+}

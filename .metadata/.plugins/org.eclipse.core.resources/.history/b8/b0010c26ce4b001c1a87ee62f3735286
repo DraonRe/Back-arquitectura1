@@ -1,0 +1,5 @@
+package edu.ucentral.servicio.facturas.model;
+
+public class Region {
+
+}

@@ -1,0 +1,22 @@
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Johan','niñ43o','johanma3ury@gmail.com', NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Lorena','ga32lvis','jenni3fer@gmail.com', NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Nestor','c123astañeda','N1estor@gmail.com', NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Magaly','re42yes', 'Magaly2@gmail.com',NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Johan2','ni1ño','joha1nmaury@gmail.com', NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Lorena2','ga23lvis','jen4nifer@gmail.com', NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Nesto2r','cas1tañeda','Nest5or@gmail.com', NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Magaly2','reye4s', 'Mag2aly@gmail.com',NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Johan23','ni1ño','johan1maury@gmail.com', NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Loren23a','galvis','j1ennifer@gmail.com', NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Nesto23r','c2astañeda','N3estor@gmail.com', NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Maga23ly','re3yes', 'Maga3ly@gmail.com',NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Joh23an','niñ1o','johan1m1aury@gmail.com', NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Lo223rena','g3alvis','je2nnifer@gmail.com', NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Ne233stor','ca1stañeda','Ne31stor@gmail.com', NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Ma12galy','rey1es', 'Ma13galy@gmail.com',NOW());
+
+
+INSERT INTO regiones(id, nombre) VALUES (1, 'Bogota');
+INSERT INTO regiones(id, nombre) VALUES (1, 'Cartagena');
+INSERT INTO regiones(id, nombre) VALUES (1, 'Bucaramanga');
+INSERT INTO regiones(id, nombre) VALUES (1, 'Cali');

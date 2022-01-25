@@ -1,0 +1,16 @@
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Johan','niño','johanmaury@gmail.com', NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Lorena','galvis','jennifer@gmail.com', NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Nestor','castañeda','Nestor@gmail.com', NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Magaly','reyes', 'Magaly@gmail.com',NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Johan','niño','johanmaury@gmail.com', NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Lorena','galvis','jennifer@gmail.com', NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Nestor','castañeda','Nestor@gmail.com', NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Magaly','reyes', 'Magaly@gmail.com',NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Johan','niño','johanmaury@gmail.com', NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Lorena','galvis','jennifer@gmail.com', NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Nestor','castañeda','Nestor@gmail.com', NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Magaly','reyes', 'Magaly@gmail.com',NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Johan','niño','johanmaury@gmail.com', NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Lorena','galvis','jennifer@gmail.com', NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Nestor','castañeda','Nestor@gmail.com', NOW());
+INSERT INTO clientes(nombre,apellido,email,create_at) VALUES('Magaly','reyes', 'Magaly@gmail.com',NOW());
